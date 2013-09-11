@@ -20,9 +20,17 @@ USES=	gmake pathfix pkgconfig
 
 LDFLAGS+=	-ldevstat
 
-OPTIONS_DEFINE= NLS
+OPTIONS_DEFINE=	NLS
 OPTIONS_SUB=	yes
 NLS_CONFIGURE_ENABLE=	nls
 NLS_USES=	gettext
+
+.include <bsd.port.options.mk>
+
+post-patch:
+.if empty(PORT_OPTIONS:MNLS)
+	@${REINPLACE_CMD} -e 's|[[:blank:]]po||' \
+		-e 's|po$$||'  ${WRKSRC}/Makefile.in
+.endif
 
 .include <bsd.port.mk>
