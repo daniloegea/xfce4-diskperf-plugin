@@ -1,6 +1,6 @@
 --- ./panel-plugin/devperf.c.orig	2012-04-03 10:22:41.000000000 -0300
-+++ ./panel-plugin/devperf.c	2013-09-11 17:16:44.000000000 -0300
-@@ -225,6 +225,96 @@
++++ ./panel-plugin/devperf.c	2013-09-11 17:45:00.000000000 -0300
+@@ -225,6 +225,94 @@
  
  	/**************************	Linux End	***************/
  
@@ -42,7 +42,6 @@
 +	kvm_t *kd = NULL;
 +	int i, found = 0;
 +	char *check_dev = (char *) p_pvDevice;
-+	int index;
 +
 +	memset(&stats, 0, sizeof(stats));
 +	memset(&dinfo, 0, sizeof(dinfo));
@@ -61,7 +60,6 @@
 +			continue;
 +		else {
 +			found = 1;
-+			index = i;
 +			break;
 +		}
 +
