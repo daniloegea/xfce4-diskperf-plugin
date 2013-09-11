@@ -1,5 +1,5 @@
 --- ./panel-plugin/devperf.c.orig	2012-04-03 10:22:41.000000000 -0300
-+++ ./panel-plugin/devperf.c	2013-09-11 15:00:27.000000000 -0300
++++ ./panel-plugin/devperf.c	2013-09-11 17:16:44.000000000 -0300
 @@ -225,6 +225,96 @@
  
  	/**************************	Linux End	***************/
@@ -9,16 +9,16 @@
 +#include <sys/disk.h>
 +#include <sys/param.h>
 +#include <sys/sysctl.h>
-+#include <devstat.h>
-+#include <fcntl.h>
 +#include <sys/types.h>
 +#include <sys/errno.h>
 +#include <sys/resource.h>
++#include <sys/time.h>
++#include <devstat.h>
++#include <fcntl.h>
 +#include <limits.h>
 +#include <string.h>
 +#include <syslog.h>
 +#include <stdarg.h>
-+
 +
 +#define MAXNAMELEN 256
 +
@@ -35,6 +35,7 @@
 +int DevGetPerfData (const void *p_pvDevice, struct devperf_t *perf)
 +{
 +	struct timeval tv;
++	struct timespec ts;
 +	struct statinfo stats;
 +	struct devinfo dinfo;
 +	struct devstat dev;
@@ -73,11 +74,10 @@
 +		perf->timestamp_ns = (uint64_t)1000ull * 1000ull * 1000ull *
 +			tv.tv_sec + 1000ull * tv.tv_usec;
 +		perf->qlen = dev.start_count - dev.end_count;
-+		perf->rbusy_ns = ((uint64_t)1000ull * 1000ull * 1000ull * dev.busy_time.sec
-+				+ 1000ull * dev.busy_time.frac / 2ull);
-+		perf->wbusy_ns = ((uint64_t)1000ull * 1000ull * 1000ull * dev.busy_time.sec
-+				+ 1000ull * dev.busy_time.frac / 2ull);
-+
++		// I'm not sure about rbusy and wbusy calculation
++		bintime2timespec(&dev.busy_time, &ts);
++		perf->rbusy_ns = (uint64_t) ts.tv_nsec;
++		perf->wbusy_ns = perf->rbusy_ns;
 +	}
 +
 +	return (0);

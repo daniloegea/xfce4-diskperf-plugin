@@ -1,5 +1,5 @@
 --- ./panel-plugin/main.c.orig	2012-06-23 05:02:16.000000000 -0300
-+++ ./panel-plugin/main.c	2013-09-11 14:58:14.000000000 -0300
++++ ./panel-plugin/main.c	2013-09-11 17:15:53.000000000 -0300
 @@ -86,7 +86,7 @@
  typedef struct param_t {
      /* Configurable parameters */

@@ -1,3 +1,3 @@
-Panel plugin to display a graphical representation of the CPU load.
+Panel plugin to display a graphical representation of the disks IO.
 
-WWW: http://goodies.xfce.org/projects/panel-plugins/xfce4-cpugraph-plugin
+WWW: http://goodies.xfce.org/projects/panel-plugins/xfce4-diskperf-plugin
