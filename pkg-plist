@@ -1,6 +1,7 @@
 lib/xfce4/panel/plugins/libdiskperf.so
 lib/xfce4/panel/plugins/libdiskperf.la
 %%NLS%%share/locale/ar/LC_MESSAGES/xfce4-diskperf-plugin.mo
+%%NLS%%share/locale/ast/LC_MESSAGES/xfce4-diskperf-plugin.mo
 %%NLS%%share/locale/ca/LC_MESSAGES/xfce4-diskperf-plugin.mo
 %%NLS%%share/locale/cs/LC_MESSAGES/xfce4-diskperf-plugin.mo
 %%NLS%%share/locale/da/LC_MESSAGES/xfce4-diskperf-plugin.mo
@@ -29,13 +30,12 @@ lib/xfce4/panel/plugins/libdiskperf.la
 %%NLS%%share/locale/sq/LC_MESSAGES/xfce4-diskperf-plugin.mo
 %%NLS%%share/locale/sv/LC_MESSAGES/xfce4-diskperf-plugin.mo
 %%NLS%%share/locale/tr/LC_MESSAGES/xfce4-diskperf-plugin.mo
-%%NLS%%share/locale/uk/LC_MESSAGES/xfce4-diskperf-plugin.mo
-%%NLS%%share/locale/zh_CN/LC_MESSAGES/xfce4-diskperf-plugin.mo
-%%NLS%%share/locale/zh_TW/LC_MESSAGES/xfce4-diskperf-plugin.mo
-%%NLS%%share/locale/ast/LC_MESSAGES/xfce4-diskperf-plugin.mo
 %%NLS%%share/locale/ug/LC_MESSAGES/xfce4-diskperf-plugin.mo
+%%NLS%%share/locale/uk/LC_MESSAGES/xfce4-diskperf-plugin.mo
 %%NLS%%share/locale/ur/LC_MESSAGES/xfce4-diskperf-plugin.mo
 %%NLS%%share/locale/ur_PK/LC_MESSAGES/xfce4-diskperf-plugin.mo
+%%NLS%%share/locale/zh_CN/LC_MESSAGES/xfce4-diskperf-plugin.mo
+%%NLS%%share/locale/zh_TW/LC_MESSAGES/xfce4-diskperf-plugin.mo
 share/xfce4/panel/plugins/diskperf.desktop
 %%NLS%%@dirrmtry share/locale/ur_PK/LC_MESSAGES
 %%NLS%%@dirrmtry share/locale/ur_PK
@@ -45,182 +45,6 @@ share/xfce4/panel/plugins/diskperf.desktop
 %%NLS%%@dirrmtry share/locale/ug
 %%NLS%%@dirrmtry share/locale/ast/LC_MESSAGES
 %%NLS%%@dirrmtry share/locale/ast
-%%NLS%%@dirrmtry share/locale/zh_TW.Big5/LC_MESSAGES
-%%NLS%%@dirrmtry share/locale/zh_TW.Big5
-%%NLS%%@dirrmtry share/locale/zh_TW/LC_MESSAGES
-%%NLS%%@dirrmtry share/locale/zh_TW
-%%NLS%%@dirrmtry share/locale/zh_CN.GB2312/LC_MESSAGES
-%%NLS%%@dirrmtry share/locale/zh_CN.GB2312
-%%NLS%%@dirrmtry share/locale/zh_CN/LC_MESSAGES
-%%NLS%%@dirrmtry share/locale/zh_CN
-%%NLS%%@dirrmtry share/locale/zh/LC_MESSAGES
-%%NLS%%@dirrmtry share/locale/zh
-%%NLS%%@dirrmtry share/locale/wa/LC_MESSAGES
-%%NLS%%@dirrmtry share/locale/wa
-%%NLS%%@dirrmtry share/locale/vi/LC_MESSAGES
-%%NLS%%@dirrmtry share/locale/vi
-%%NLS%%@dirrmtry share/locale/uz/LC_MESSAGES
-%%NLS%%@dirrmtry share/locale/uz
-%%NLS%%@dirrmtry share/locale/uk/LC_MESSAGES
-%%NLS%%@dirrmtry share/locale/uk
-%%NLS%%@dirrmtry share/locale/tr/LC_MESSAGES
-%%NLS%%@dirrmtry share/locale/tr
-%%NLS%%@dirrmtry share/locale/tk/LC_MESSAGES
-%%NLS%%@dirrmtry share/locale/tk
-%%NLS%%@dirrmtry share/locale/th/LC_MESSAGES
-%%NLS%%@dirrmtry share/locale/th
-%%NLS%%@dirrmtry share/locale/tg/LC_MESSAGES
-%%NLS%%@dirrmtry share/locale/tg
-%%NLS%%@dirrmtry share/locale/ta/LC_MESSAGES
-%%NLS%%@dirrmtry share/locale/ta
-%%NLS%%@dirrmtry share/locale/sv/LC_MESSAGES
-%%NLS%%@dirrmtry share/locale/sv
-%%NLS%%@dirrmtry share/locale/sr@Latn/LC_MESSAGES
-%%NLS%%@dirrmtry share/locale/sr@Latn
-%%NLS%%@dirrmtry share/locale/sr/LC_MESSAGES
-%%NLS%%@dirrmtry share/locale/sr
-%%NLS%%@dirrmtry share/locale/sq/LC_MESSAGES
-%%NLS%%@dirrmtry share/locale/sq
-%%NLS%%@dirrmtry share/locale/sl/LC_MESSAGES
-%%NLS%%@dirrmtry share/locale/sl
-%%NLS%%@dirrmtry share/locale/sk/LC_MESSAGES
-%%NLS%%@dirrmtry share/locale/sk
-%%NLS%%@dirrmtry share/locale/ru/LC_MESSAGES
-%%NLS%%@dirrmtry share/locale/ru
-%%NLS%%@dirrmtry share/locale/ro/LC_MESSAGES
-%%NLS%%@dirrmtry share/locale/ro
-%%NLS%%@dirrmtry share/locale/pt_PT/LC_MESSAGES
-%%NLS%%@dirrmtry share/locale/pt_PT
-%%NLS%%@dirrmtry share/locale/pt_BR/LC_MESSAGES
-%%NLS%%@dirrmtry share/locale/pt_BR
-%%NLS%%@dirrmtry share/locale/pt/LC_MESSAGES
-%%NLS%%@dirrmtry share/locale/pt
-%%NLS%%@dirrmtry share/locale/pl/LC_MESSAGES
-%%NLS%%@dirrmtry share/locale/pl
-%%NLS%%@dirrmtry share/locale/pa/LC_MESSAGES
-%%NLS%%@dirrmtry share/locale/pa
-%%NLS%%@dirrmtry share/locale/or/LC_MESSAGES
-%%NLS%%@dirrmtry share/locale/or
-%%NLS%%@dirrmtry share/locale/no/LC_MESSAGES
-%%NLS%%@dirrmtry share/locale/no
-%%NLS%%@dirrmtry share/locale/nn/LC_MESSAGES
-%%NLS%%@dirrmtry share/locale/nn
-%%NLS%%@dirrmtry share/locale/nl/LC_MESSAGES
-%%NLS%%@dirrmtry share/locale/nl
-%%NLS%%@dirrmtry share/locale/ne/LC_MESSAGES
-%%NLS%%@dirrmtry share/locale/ne
-%%NLS%%@dirrmtry share/locale/nb/LC_MESSAGES
-%%NLS%%@dirrmtry share/locale/nb
-%%NLS%%@dirrmtry share/locale/mt/LC_MESSAGES
-%%NLS%%@dirrmtry share/locale/mt
-%%NLS%%@dirrmtry share/locale/ms/LC_MESSAGES
-%%NLS%%@dirrmtry share/locale/ms
-%%NLS%%@dirrmtry share/locale/mn/LC_MESSAGES
-%%NLS%%@dirrmtry share/locale/mn
-%%NLS%%@dirrmtry share/locale/ml/LC_MESSAGES
-%%NLS%%@dirrmtry share/locale/ml
-%%NLS%%@dirrmtry share/locale/mk/LC_MESSAGES
-%%NLS%%@dirrmtry share/locale/mk
-%%NLS%%@dirrmtry share/locale/lv/LC_MESSAGES
-%%NLS%%@dirrmtry share/locale/lv
-%%NLS%%@dirrmtry share/locale/lt/LC_MESSAGES
-%%NLS%%@dirrmtry share/locale/lt
-%%NLS%%@dirrmtry share/locale/li/LC_MESSAGES
-%%NLS%%@dirrmtry share/locale/li
-%%NLS%%@dirrmtry share/locale/ko/LC_MESSAGES
-%%NLS%%@dirrmtry share/locale/ko
-%%NLS%%@dirrmtry share/locale/kn/LC_MESSAGES
-%%NLS%%@dirrmtry share/locale/kn
-%%NLS%%@dirrmtry share/locale/ka/LC_MESSAGES
-%%NLS%%@dirrmtry share/locale/ka
-%%NLS%%@dirrmtry share/locale/ja/LC_MESSAGES
-%%NLS%%@dirrmtry share/locale/ja
-%%NLS%%@dirrmtry share/locale/it/LC_MESSAGES
-%%NLS%%@dirrmtry share/locale/it
-%%NLS%%@dirrmtry share/locale/is/LC_MESSAGES
-%%NLS%%@dirrmtry share/locale/is
-%%NLS%%@dirrmtry share/locale/id/LC_MESSAGES
-%%NLS%%@dirrmtry share/locale/id
-%%NLS%%@dirrmtry share/locale/hu/LC_MESSAGES
-%%NLS%%@dirrmtry share/locale/hu
-%%NLS%%@dirrmtry share/locale/hr/LC_MESSAGES
-%%NLS%%@dirrmtry share/locale/hr
-%%NLS%%@dirrmtry share/locale/hi/LC_MESSAGES
-%%NLS%%@dirrmtry share/locale/hi
-%%NLS%%@dirrmtry share/locale/he/LC_MESSAGES
-%%NLS%%@dirrmtry share/locale/he
-%%NLS%%@dirrmtry share/locale/gu/LC_MESSAGES
-%%NLS%%@dirrmtry share/locale/gu
-%%NLS%%@dirrmtry share/locale/gl/LC_MESSAGES
-%%NLS%%@dirrmtry share/locale/gl
-%%NLS%%@dirrmtry share/locale/ga/LC_MESSAGES
-%%NLS%%@dirrmtry share/locale/ga
-%%NLS%%@dirrmtry share/locale/fr_FR/LC_MESSAGES
-%%NLS%%@dirrmtry share/locale/fr_FR
-%%NLS%%@dirrmtry share/locale/fr/LC_MESSAGES
-%%NLS%%@dirrmtry share/locale/fr
-%%NLS%%@dirrmtry share/locale/fi/LC_MESSAGES
-%%NLS%%@dirrmtry share/locale/fi
-%%NLS%%@dirrmtry share/locale/fa_IR/LC_MESSAGES
-%%NLS%%@dirrmtry share/locale/fa_IR
-%%NLS%%@dirrmtry share/locale/fa/LC_MESSAGES
-%%NLS%%@dirrmtry share/locale/fa
-%%NLS%%@dirrmtry share/locale/eu/LC_MESSAGES
-%%NLS%%@dirrmtry share/locale/eu
-%%NLS%%@dirrmtry share/locale/et/LC_MESSAGES
-%%NLS%%@dirrmtry share/locale/et
-%%NLS%%@dirrmtry share/locale/es_MX/LC_MESSAGES
-%%NLS%%@dirrmtry share/locale/es_MX
-%%NLS%%@dirrmtry share/locale/es_ES/LC_MESSAGES
-%%NLS%%@dirrmtry share/locale/es_ES
-%%NLS%%@dirrmtry share/locale/es/LC_MESSAGES
-%%NLS%%@dirrmtry share/locale/es
-%%NLS%%@dirrmtry share/locale/eo/LC_MESSAGES
-%%NLS%%@dirrmtry share/locale/eo
-%%NLS%%@dirrmtry share/locale/en_GB/LC_MESSAGES
-%%NLS%%@dirrmtry share/locale/en_GB
-%%NLS%%@dirrmtry share/locale/en_CA/LC_MESSAGES
-%%NLS%%@dirrmtry share/locale/en_CA
-%%NLS%%@dirrmtry share/locale/en_AU/LC_MESSAGES
-%%NLS%%@dirrmtry share/locale/en_AU
-%%NLS%%@dirrmtry share/locale/en/LC_MESSAGES
-%%NLS%%@dirrmtry share/locale/en
-%%NLS%%@dirrmtry share/locale/el/LC_MESSAGES
-%%NLS%%@dirrmtry share/locale/el
-%%NLS%%@dirrmtry share/locale/ee/LC_MESSAGES
-%%NLS%%@dirrmtry share/locale/ee
-%%NLS%%@dirrmtry share/locale/dk/LC_MESSAGES
-%%NLS%%@dirrmtry share/locale/dk
-%%NLS%%@dirrmtry share/locale/de_AT/LC_MESSAGES
-%%NLS%%@dirrmtry share/locale/de_AT
-%%NLS%%@dirrmtry share/locale/de/LC_MESSAGES
-%%NLS%%@dirrmtry share/locale/de
-%%NLS%%@dirrmtry share/locale/da/LC_MESSAGES
-%%NLS%%@dirrmtry share/locale/da
-%%NLS%%@dirrmtry share/locale/cy/LC_MESSAGES
-%%NLS%%@dirrmtry share/locale/cy
-%%NLS%%@dirrmtry share/locale/cs/LC_MESSAGES
-%%NLS%%@dirrmtry share/locale/cs
-%%NLS%%@dirrmtry share/locale/ca/LC_MESSAGES
-%%NLS%%@dirrmtry share/locale/ca
-%%NLS%%@dirrmtry share/locale/bs/LC_MESSAGES
-%%NLS%%@dirrmtry share/locale/bs
-%%NLS%%@dirrmtry share/locale/br/LC_MESSAGES
-%%NLS%%@dirrmtry share/locale/br
-%%NLS%%@dirrmtry share/locale/bn/LC_MESSAGES
-%%NLS%%@dirrmtry share/locale/bn
-%%NLS%%@dirrmtry share/locale/bg/LC_MESSAGES
-%%NLS%%@dirrmtry share/locale/bg
-%%NLS%%@dirrmtry share/locale/be/LC_MESSAGES
-%%NLS%%@dirrmtry share/locale/be
-%%NLS%%@dirrmtry share/locale/az/LC_MESSAGES
-%%NLS%%@dirrmtry share/locale/az
-%%NLS%%@dirrmtry share/locale/ar/LC_MESSAGES
-%%NLS%%@dirrmtry share/locale/ar
-%%NLS%%@dirrmtry share/locale/am/LC_MESSAGES
-%%NLS%%@dirrmtry share/locale/am
-%%NLS%%@dirrmtry share/locale/af/LC_MESSAGES
-%%NLS%%@dirrmtry share/locale/af
 @dirrmtry share/xfce4/panel/plugins
 @dirrmtry share/xfce4/panel
 @dirrmtry share/xfce4

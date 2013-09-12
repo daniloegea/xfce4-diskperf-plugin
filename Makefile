@@ -16,7 +16,7 @@ USE_BZIP2=	yes
 USE_GNOME=	gtk20 intltool intlhack
 USE_XFCE=	configenv libmenu panel
 INSTALLS_ICONS=	yes
-USES=	gmake pathfix pkgconfig
+USES=	gmake pkgconfig
 
 LDFLAGS+=	-ldevstat
 
