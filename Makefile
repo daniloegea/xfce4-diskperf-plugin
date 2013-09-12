@@ -8,7 +8,7 @@ MASTER_SITES=	${MASTER_SITE_XFCE}
 MASTER_SITE_SUBDIR=	src/panel-plugins/${PORTNAME}/${PORTVERSION:R}
 DIST_SUBDIR=	xfce4
 
-MAINTAINER=	xfce@FreeBSD.org
+MAINTAINER=	danilogondolfo@gmail.com
 COMMENT=	Graphical representation of the disk IO
 
 GNU_CONFIGURE=	yes
